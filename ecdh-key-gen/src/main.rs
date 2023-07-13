@@ -1,5 +1,9 @@
+mod ecdh_key_gen;
+
 fn main() {
-    generateEcdhKeyPair();
+    ecdh_key_gen::generate_ecdh_key_pair();
+    ecdh_key_gen::generate_pub_key_k256();
 }
+
 
 
